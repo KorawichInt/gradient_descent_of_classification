@@ -1,0 +1,1 @@
+### This repository is for study optimization, gradient descent, classification and implementation with interested dataset
