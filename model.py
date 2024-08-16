@@ -84,10 +84,10 @@ if __name__ == "__main__":
 
     # Plot cost over iterations (Error graph)
     plt.figure(figsize=(10, 5))
-    plt.plot(cost_log, label="Error (Log Loss)")
-    plt.title("Error over Iterations")
+    plt.plot(cost_log, label="Cost (BCE)")
+    plt.title("Cost (error) over Iterations")
     plt.xlabel("Iterations")
-    plt.ylabel("Error (Log Loss)")
+    plt.ylabel("Cost (BCE)")
     plt.legend()
     plt.grid(True)
     plt.show()
